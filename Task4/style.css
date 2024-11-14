@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#button_container{
+    display: flex;
+    justify-content: space-between;
+}
+#button_container>button {
+    width: 100%;
+}
+.img_container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 300px;
+}
+
+.img_container img {
+    min-width: 100%;
+}
